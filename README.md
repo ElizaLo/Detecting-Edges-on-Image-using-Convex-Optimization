@@ -1,4 +1,4 @@
-# Edge-detecting-of-reflections
+# Edge Detecting of Reflections
 
 Bachelor Research
 
