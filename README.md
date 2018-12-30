@@ -22,3 +22,4 @@ I tested this method on a large number of photos of cells made under a microscop
 
  - [Efficient Projections onto the l1-Ball for Learning in High Dimensions](https://stanford.edu/~jduchi/projects/DuchiShSiCh08.pdf)
  - [Detecting Edges of Reflections from a Single Image Via CONVEX OPTIMIZATION](https://github.com/ElizaLo/Edge-detecting-of-reflections/blob/master/DETECTING%20EDGES%20OF%20REFLECTIONS%20FROM%20A%20SINGLE%20IMAGE.pdf)
+ - [Alternating Direction Method of Multipliers (ADMM)](http://stanford.edu/~boyd/admm.html)
