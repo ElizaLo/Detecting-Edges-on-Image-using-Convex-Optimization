@@ -12,10 +12,10 @@ I tested this method on a large number of photos of cells made under a microscop
 
 ## **Available algorithms:**
 
- - Canny edge detector
- - Sobel edge detector
- - Prewitt edge detector
- - Roberts cross
+ - [Canny edge detector](https://en.wikipedia.org/wiki/Canny_edge_detector)
+ - [Sobel edge detector](https://en.wikipedia.org/wiki/Sobel_operator)
+ - [Prewitt edge detector](https://en.wikipedia.org/wiki/Prewitt_operator)
+ - [Roberts cross](https://en.wikipedia.org/wiki/Roberts_cross)
  - Scharr operator
  
 ## **Used articles:**
