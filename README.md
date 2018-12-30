@@ -1,8 +1,8 @@
 # Edge Detecting of Reflections
 
-Bachelor Research
+## **Bachelor Research**
 
-My Bachelor research work is based on pattern recognition and edge detection. The main idea of this method is to detect edges of reflections using convex optimization, namely alternating direction method of multipliers (ADMM) from a single image. 
+My Bachelor research work is based on pattern recognition and edge detection. The main idea of this method is to detect edges of reflections using convex optimization, namely **alternating direction method of multipliers (ADMM)** from a single image. 
 
 Reflections could be can be of two types: reflections have almost monotone color or color around edges varies smoothly.
 
@@ -10,7 +10,7 @@ First of all I use Canny edge detector to a given color image with reflections t
 
 I tested this method on a large number of photos of cells made under a microscope and made sure that the proposed method works and it can be used in medicine
 
-Available algorithms:
+**Available algorithms:**
 
  - Canny edge detector
  - Sobel edge detector
