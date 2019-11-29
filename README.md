@@ -15,6 +15,7 @@ At first step I use **Canny edge detector** ([A Computational Approach to Edge D
 This algorithm can help doctors better detect cancer cells in [pictures made by microscope](https://github.com/ElizaLo/Edge-Detecting-Of-Reflections-On-Single-Image/tree/master/Dataset%20of%20Cells), because as we know cells mostly has monotone or smooth edge. As a result, it will be possible to detect the disease at the early stages and save a lot of human lives.
 
 All this was implemented in **C ++**, without using any additional libraries. Since I was working with images, my task was to write the library for operations on matrices and tensors myself. Another difficulty of this work was the acceleration of the created algorithm using various optimizations such as [**efficient projections onto the _l<sub>1</sub>_-Ball for learning in high dimensions**](https://stanford.edu/~jduchi/projects/DuchiShSiCh08.pdf).
+
 I tested this method on a large number of photos of cells made under a microscope and made sure that the proposed method works and it can be used in medicine.
 
 
