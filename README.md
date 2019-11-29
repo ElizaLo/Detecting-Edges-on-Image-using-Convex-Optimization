@@ -2,17 +2,17 @@
 
 ## **Bachelor Research (Thesis)**
 
-The main idea of my Bachelor research work was to create a method to detect edges of cells using convex optimization, namely **Alternating Direction Method of Multipliers (ADMM)** (based on works of [S. Boyd](https://web.stanford.edu/~boyd/)) from a single image of cell made by microscope.
+The main idea of my Bachelor research work was to create a method to detect edges of cells using convex optimization, namely **Alternating Direction Method of Multipliers (ADMM)** (based on works of [S. Boyd](https://web.stanford.edu/~boyd/)) from a single image of the cell made by microscope.
 
 **Reflections could be can be of two types:** 
 - [ ] reflections have almost monotone color
-- [ ] color around edges varies smoothly. 
+- [ ] the color around edges varies smoothly. 
 
 However, in the case where only a single image is given, reflection detection becomes much more challenging.
 
-At first step I use **Canny edge detector** ([A Computational Approach to Edge Detection](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.420.3300&rep=rep1&type=pdf), J. Canny, 1986) to a given color image with reflections to detect all edges on the picture. Then was developed an algorithm for extracting non  reflection edges from the initial edge image by solving a certain convex optimization problem. And finally, the extracted image with edges is binarized by a simple thresholding operation. 
+At first step I use **Canny edge detector** ([A Computational Approach to Edge Detection](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.420.3300&rep=rep1&type=pdf), J. Canny, 1986) to a given color image with reflections to detect all edges on the picture. Then was developed an algorithm for extracting non-reflection edges from the initial edge image by solving a certain convex optimization problem. And finally, the extracted image with edges is binarized by a simple thresholding operation. 
 
-This algorithm can help doctors better detect cancer cells in [pictures made by microscope](https://github.com/ElizaLo/Edge-Detecting-Of-Reflections-On-Single-Image/tree/master/Dataset%20of%20Cells), because as we know cells mostly has monotone or smooth edge. As a result, it will be possible to detect the disease at the early stages and save a lot of human lives.
+This algorithm can help doctors better detect cancer cells in [pictures made by microscope](https://github.com/ElizaLo/Edge-Detecting-Of-Reflections-On-Single-Image/tree/master/Dataset%20of%20Cells) because as we know cells mostly have monotone or smooth edge. As a result, it will be possible to detect the disease at the early stages and save a lot of human lives.
 
 All this was implemented in **C ++**, without using any additional libraries. Since I was working with images, my task was to write the library for operations on matrices and tensors myself. Another difficulty of this work was the acceleration of the created algorithm using various optimizations such as [**efficient projections onto the _l<sub>1</sub>_-Ball for learning in high dimensions**](https://stanford.edu/~jduchi/projects/DuchiShSiCh08.pdf).
 
