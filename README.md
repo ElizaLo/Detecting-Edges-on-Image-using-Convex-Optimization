@@ -28,6 +28,8 @@ I tested this method on a large number of photos of cells made under a microscop
  - [Roberts cross](https://en.wikipedia.org/wiki/Roberts_cross)
  - Scharr operator
  
+ The project includes GUI for viewing results.
+ 
 ## **Used articles:**
 
  - [Efficient Projections onto the l1-Ball for Learning in High Dimensions](https://stanford.edu/~jduchi/projects/DuchiShSiCh08.pdf)
