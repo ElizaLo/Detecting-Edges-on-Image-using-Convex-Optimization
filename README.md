@@ -1,6 +1,8 @@
 # Detecting Edges on image using convex optimization
 
-## **Bachelor Research (Thesis)**
+`C++` Qt implementation of edge detection algorithms.
+
+## Bachelor Research (Thesis)
 
 The main idea of my Bachelor research work was to create a method to detect edges of cells using convex optimization, namely **Alternating Direction Method of Multipliers (ADMM)** (based on works of [S. Boyd](https://web.stanford.edu/~boyd/)) from a single image of the cell made by microscope.
 
@@ -28,9 +30,29 @@ I tested this method on a large number of photos of cells made under a microscop
  - [Roberts cross](https://en.wikipedia.org/wiki/Roberts_cross)
  - Scharr operator
  
- The project includes GUI for viewing results.
+## Results
  
-## **Used articles:**
+The project includes GUI for viewing results.
+
+
+
+### 📷 Original image
+
+<img src="https://github.com/ElizaLo/Detecting-Edges-on-Image-using-Convex-Optimization/blob/master/img/Original%20img%201.png" width="553" height="587">
+
+### 🟢 Canny edge detector
+
+<img src="https://github.com/ElizaLo/Detecting-Edges-on-Image-using-Convex-Optimization/blob/master/img/Canny%20img%201.png" width="553" height="587">
+
+### 🟢 Canny edge detector
+
+<img src="https://github.com/ElizaLo/Detecting-Edges-on-Image-using-Convex-Optimization/blob/master/img/Canny%20img%201.png" width="553" height="587">
+  
+## Requirements  
+
+- `C++ 14`
+ 
+## Used articles:
 
  - [Efficient Projections onto the l1-Ball for Learning in High Dimensions](https://stanford.edu/~jduchi/projects/DuchiShSiCh08.pdf)
  - [Detecting Edges of Reflections from a Single Image Via CONVEX OPTIMIZATION](https://github.com/ElizaLo/Edge-detecting-of-reflections/blob/master/DETECTING%20EDGES%20OF%20REFLECTIONS%20FROM%20A%20SINGLE%20IMAGE.pdf)
