@@ -35,7 +35,7 @@ I tested this method on a large number of photos of cells made under a microscop
 The project includes GUI for viewing results.
 
 | | Photo | Cell image|
-|------------|--------------|--------------|
+|:---:|:---:|:---:|
 |**Original image**|<img src="https://github.com/ElizaLo/Detecting-Edges-on-Image-using-Convex-Optimization/blob/master/img/Original%20img%201.png" width="1106" height="391">|<img src="https://github.com/ElizaLo/Detecting-Edges-on-Image-using-Convex-Optimization/blob/master/img/Cell%20original.png" width="1106" height="391">|
 |**Canny edge detector**|<img src="https://github.com/ElizaLo/Detecting-Edges-on-Image-using-Convex-Optimization/blob/master/img/Canny%20img%201.png" width="1106" height="391">|<img src="https://github.com/ElizaLo/Detecting-Edges-on-Image-using-Convex-Optimization/blob/master/img/Canny%20Cell%20.png" width="1106" height="391">|
 |**Sobel edge detector**|<img src="https://github.com/ElizaLo/Detecting-Edges-on-Image-using-Convex-Optimization/blob/master/img/Sobel%20img%201.png" width="1106" height="391">|<img src="https://github.com/ElizaLo/Detecting-Edges-on-Image-using-Convex-Optimization/blob/master/img/Sobel%20Cell.png" width="1106" height="391">|
