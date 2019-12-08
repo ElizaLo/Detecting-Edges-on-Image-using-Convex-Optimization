@@ -43,6 +43,7 @@ The project includes GUI for viewing results.
 |**Roberts edge detector**|<img src="https://github.com/ElizaLo/Detecting-Edges-on-Image-using-Convex-Optimization/blob/master/img/Roberts%20img%201.png" width="1106" height="391">|<img src="https://github.com/ElizaLo/Detecting-Edges-on-Image-using-Convex-Optimization/blob/master/img/Roberts%20Cell.png" width="1106" height="391">|
 |**Scharr edge detector**|<img src="https://github.com/ElizaLo/Detecting-Edges-on-Image-using-Convex-Optimization/blob/master/img/Scharr%20img%201.png" width="1106" height="391">|<img src="https://github.com/ElizaLo/Detecting-Edges-on-Image-using-Convex-Optimization/blob/master/img/Scharr%20Cell.png" width="1106" height="391">|
 
+[More images](https://github.com/ElizaLo/Detecting-Edges-on-Image-using-Convex-Optimization/tree/master/img) to compare.
   
 ## Requirements  
 
