@@ -1,5 +1,7 @@
 # Detecting Edges on image using convex optimization
 
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FElizaLo%2FDetecting-Edges-on-Image-using-Convex-Optimization&count_bg=%2300438E&title_bg=%23B5B5BC&icon=cplusplus.svg&icon_color=%23E7E7E7&title=Repository+Views&edge_flat=false"/></a>
+
 `C++` Qt implementation of edge detection algorithms.
 
 ## Bachelor Research (Thesis)
